@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter';
+    width: 550px;
+    height: 704px;
+}
+
+nav {
+    background: #F55A5A;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -1.085px;
+    justify-content: center;
+}
+
+nav img {
+    padding: 7px;
+}
+
+section {
+    padding: 27px 40px 0px 40px;
+}
+
+.card--container {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 0px 18px 0px;
+}
+
+.card--image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card--info {
+    margin-top: 15px;
+    font-size: 10px;
+    color: #2B283A;
+}
+
+.map--pin {
+    width: 7px;
+    height: 9.545px;
+    margin-right: 4px;
+}
+
+.card--location {
+    margin-right: 12px;
+    letter-spacing: 1.741px;
+}
+
+.map--link {
+    color: #918E9B;
+    line-height: normal;
+    letter-spacing: 0.1px;
+}
+
+.card--title {
+    font-size: 25px;
+    line-height: 50%;
+}
+
+.card--date {
+    padding-top: 15px;
+    font-weight: 600;
+    line-height: 90%;
+}
+
+.card--description {
+    font-weight: 400;
+    line-height: 150%;
+}
+
+hr {
+    color: #F5F5F5;
+}
